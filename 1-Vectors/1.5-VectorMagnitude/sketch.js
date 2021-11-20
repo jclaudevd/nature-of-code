@@ -10,6 +10,7 @@ function draw() {
   const mouse = createVector(mouseX, mouseY);
   mouse.sub(center);
   mouse.mult(0.5);
+
   translate(width / 2, height / 2);
   line(0, 0, mouse.x, mouse.y);
 }
